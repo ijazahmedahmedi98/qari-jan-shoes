@@ -1,0 +1,455 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+
+.shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.shoe {
+    background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.shoe img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.shoe h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.shoe p {
+    font-size: 16px;
+    color: #333;
+}
+
+.shoe button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.shoe button:hover {
+    background-color: #e65a50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #f4a261;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-box input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer .search-box {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.review {
+    margin: 10px auto;
+    max-width: 600px;
+    font-style: italic;
+}
+
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* HEADER STYLING */
+header {
+    background-color: #222; /* Dark sleek background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-family: Arial, sans-serif;
+    border-bottom: 3px solid #ff9800; /* Stylish accent */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Hover effect */
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: #222; /* Matching header */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 100%; /* Full width */
+    border-top: 3px solid #ff9800;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #ff9800;
+}
+
+/* Search Box Enhancements */
+.search-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-box button {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #ff7200;
+}
+/* Footer Menus */
+.footer-menus {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.menu {
+    text-align: left;
+}
+
+.menu h3 {
+    color: #ff9800;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 5px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #ff9800;
+}
+
+/* Homepage Container */
+.homepage-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Bordered Main Content */
+.homepage-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Categories (Left Side) */
+.categories {
+    flex: 30%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Category List */
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-list li {
+    margin: 10px 0;
+}
+
+.category-list li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.category-list li a:hover {
+    color: #ff9800;
+}
+
+/* Banner (Right Side) */
+.homepage-banner {
+    flex: 70%;
+    background: url('home-banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Categories (30% with border) */
+.categories {
+    flex: 30%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 2px solid #ccc; /* Adds the border */
+    border-radius: 8px; /* Rounds corners */
+}
+
+/* Category List Styling */
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separates categories */
+}
+
+.category-list li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.category-list li a:hover {
+    color: #ff9800;
+}
+
+/* Banner (70% with proper text visibility) */
+.homepage-banner {
+    flex: 70%;
+    background: url('home-banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Improves text readability */
+}
+
+.homepage-banner {
+    background-color: rgba(0, 0, 0, 0.5); /* Darkens banner slightly */
+}
+
+/* Homepage Layout */
+.homepage-layout {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px; /* Prevents it from getting too wide */
+    margin: auto;
+}
+
+/* Categories (Make It Smaller) */
+.categories {
+    flex: 25%; /* Reduce from 30% */
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Homepage Container */
+.homepage-container {
+    width: 100%;
+    height: 300px; /* Reduce from 400px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Bordered Main Content */
+.homepage-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Footer Profile Button */
+.profile-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: blue;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.profile-btn:hover {
+    background: linear-gradient(135deg, #ff7200, #e65100);
+    transform: scale(1.05);
+}
