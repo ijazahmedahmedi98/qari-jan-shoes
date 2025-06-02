@@ -453,3 +453,16 @@ footer {
     background: linear-gradient(135deg, #ff7200, #e65100);
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .homepage-layout {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .categories, .homepage-banner {
+        width: 100%;
+    }
+    .search-form input {
+        width: 100%;
+    }
+}
